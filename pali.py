@@ -1,0 +1,11 @@
+N=int(input())
+a=N
+s=0
+while(a>0):
+ re=a%10
+ s=(s*10)+re
+ a=a//10
+if(N==s):
+ print("yes")
+else:
+ print("no")
